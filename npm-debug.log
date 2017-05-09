@@ -1,0 +1,164 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/Mr.Ware/.nvm/versions/node/v7.2.1/bin/node',
+1 verbose cli   '/Users/Mr.Ware/.nvm/versions/node/v7.2.1/bin/npm',
+1 verbose cli   'i',
+1 verbose cli   'create-react-app',
+1 verbose cli   'hoeorno' ]
+2 info using npm@3.10.10
+3 info using node@v7.2.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData create-react-app
+8 silly fetchPackageMetaData hoeorno
+9 silly fetchNamedPackageData create-react-app
+10 silly mapToRegistry name create-react-app
+11 silly mapToRegistry using default registry
+12 silly mapToRegistry registry https://registry.npmjs.org/
+13 silly mapToRegistry data Result {
+13 silly mapToRegistry   raw: 'create-react-app',
+13 silly mapToRegistry   scope: null,
+13 silly mapToRegistry   escapedName: 'create-react-app',
+13 silly mapToRegistry   name: 'create-react-app',
+13 silly mapToRegistry   rawSpec: '',
+13 silly mapToRegistry   spec: 'latest',
+13 silly mapToRegistry   type: 'tag' }
+14 silly mapToRegistry uri https://registry.npmjs.org/create-react-app
+15 silly fetchNamedPackageData hoeorno
+16 silly mapToRegistry name hoeorno
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry https://registry.npmjs.org/
+19 silly mapToRegistry data Result {
+19 silly mapToRegistry   raw: 'hoeorno',
+19 silly mapToRegistry   scope: null,
+19 silly mapToRegistry   escapedName: 'hoeorno',
+19 silly mapToRegistry   name: 'hoeorno',
+19 silly mapToRegistry   rawSpec: '',
+19 silly mapToRegistry   spec: 'latest',
+19 silly mapToRegistry   type: 'tag' }
+20 silly mapToRegistry uri https://registry.npmjs.org/hoeorno
+21 verbose request uri https://registry.npmjs.org/hoeorno
+22 verbose request no auth needed
+23 info attempt registry request try #1 at 1:27:13 PM
+24 verbose request using bearer token for auth
+25 verbose request id 24e29c80c6f16486
+26 http request GET https://registry.npmjs.org/hoeorno
+27 verbose request uri https://registry.npmjs.org/create-react-app
+28 verbose request no auth needed
+29 info attempt registry request try #1 at 1:27:13 PM
+30 verbose request using bearer token for auth
+31 verbose etag W/"589e8626-5fc6"
+32 verbose lastModified Sat, 11 Feb 2017 03:33:58 GMT
+33 http request GET https://registry.npmjs.org/create-react-app
+34 http 200 https://registry.npmjs.org/create-react-app
+35 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+35 verbose headers   'content-type': 'application/json',
+35 verbose headers   etag: '"590f2442-77da"',
+35 verbose headers   'content-encoding': 'gzip',
+35 verbose headers   'cache-control': 'max-age=300',
+35 verbose headers   'transfer-encoding': 'chunked',
+35 verbose headers   'accept-ranges': 'bytes',
+35 verbose headers   date: 'Mon, 08 May 2017 20:27:16 GMT',
+35 verbose headers   via: '1.1 varnish',
+35 verbose headers   connection: 'keep-alive',
+35 verbose headers   'x-served-by': 'cache-sjc3650-SJC',
+35 verbose headers   'x-cache': 'MISS',
+35 verbose headers   'x-cache-hits': '0',
+35 verbose headers   'x-timer': 'S1494275234.600866,VS0,VE3266',
+35 verbose headers   vary: 'Accept-Encoding' }
+36 silly get cb [ 200,
+36 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+36 silly get     'content-type': 'application/json',
+36 silly get     etag: '"590f2442-77da"',
+36 silly get     'content-encoding': 'gzip',
+36 silly get     'cache-control': 'max-age=300',
+36 silly get     'transfer-encoding': 'chunked',
+36 silly get     'accept-ranges': 'bytes',
+36 silly get     date: 'Mon, 08 May 2017 20:27:16 GMT',
+36 silly get     via: '1.1 varnish',
+36 silly get     connection: 'keep-alive',
+36 silly get     'x-served-by': 'cache-sjc3650-SJC',
+36 silly get     'x-cache': 'MISS',
+36 silly get     'x-cache-hits': '0',
+36 silly get     'x-timer': 'S1494275234.600866,VS0,VE3266',
+36 silly get     vary: 'Accept-Encoding' } ]
+37 verbose get saving create-react-app to /Users/Mr.Ware/.npm/registry.npmjs.org/create-react-app/.cache.json
+38 verbose correctMkdir /Users/Mr.Ware/.npm correctMkdir not in flight; initializing
+39 http 404 https://registry.npmjs.org/hoeorno
+40 verbose headers { 'content-type': 'application/json',
+40 verbose headers   'cache-control': 'max-age=0',
+40 verbose headers   'content-length': '2',
+40 verbose headers   'accept-ranges': 'bytes',
+40 verbose headers   date: 'Mon, 08 May 2017 20:27:17 GMT',
+40 verbose headers   via: '1.1 varnish',
+40 verbose headers   connection: 'keep-alive',
+40 verbose headers   'x-served-by': 'cache-sjc3637-SJC',
+40 verbose headers   'x-cache': 'MISS',
+40 verbose headers   'x-cache-hits': '0',
+40 verbose headers   'x-timer': 'S1494275234.599942,VS0,VE3536',
+40 verbose headers   vary: 'Accept-Encoding' }
+41 silly get cb [ 404,
+41 silly get   { 'content-type': 'application/json',
+41 silly get     'cache-control': 'max-age=0',
+41 silly get     'content-length': '2',
+41 silly get     'accept-ranges': 'bytes',
+41 silly get     date: 'Mon, 08 May 2017 20:27:17 GMT',
+41 silly get     via: '1.1 varnish',
+41 silly get     connection: 'keep-alive',
+41 silly get     'x-served-by': 'cache-sjc3637-SJC',
+41 silly get     'x-cache': 'MISS',
+41 silly get     'x-cache-hits': '0',
+41 silly get     'x-timer': 'S1494275234.599942,VS0,VE3536',
+41 silly get     vary: 'Accept-Encoding' } ]
+42 silly fetchPackageMetaData Error: Registry returned 404 for GET on https://registry.npmjs.org/hoeorno
+42 silly fetchPackageMetaData     at makeError (/Users/Mr.Ware/.nvm/versions/node/v7.2.1/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+42 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/Users/Mr.Ware/.nvm/versions/node/v7.2.1/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:280:14)
+42 silly fetchPackageMetaData     at Request._callback (/Users/Mr.Ware/.nvm/versions/node/v7.2.1/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+42 silly fetchPackageMetaData     at Request.self.callback (/Users/Mr.Ware/.nvm/versions/node/v7.2.1/lib/node_modules/npm/node_modules/request/request.js:187:22)
+42 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+42 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+42 silly fetchPackageMetaData     at Request.<anonymous> (/Users/Mr.Ware/.nvm/versions/node/v7.2.1/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+42 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+42 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+42 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/Users/Mr.Ware/.nvm/versions/node/v7.2.1/lib/node_modules/npm/node_modules/request/request.js:969:12)
+42 silly fetchPackageMetaData  error for hoeorno { Error: Registry returned 404 for GET on https://registry.npmjs.org/hoeorno
+42 silly fetchPackageMetaData     at makeError (/Users/Mr.Ware/.nvm/versions/node/v7.2.1/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+42 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/Users/Mr.Ware/.nvm/versions/node/v7.2.1/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:280:14)
+42 silly fetchPackageMetaData     at Request._callback (/Users/Mr.Ware/.nvm/versions/node/v7.2.1/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+42 silly fetchPackageMetaData     at Request.self.callback (/Users/Mr.Ware/.nvm/versions/node/v7.2.1/lib/node_modules/npm/node_modules/request/request.js:187:22)
+42 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+42 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+42 silly fetchPackageMetaData     at Request.<anonymous> (/Users/Mr.Ware/.nvm/versions/node/v7.2.1/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+42 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+42 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+42 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/Users/Mr.Ware/.nvm/versions/node/v7.2.1/lib/node_modules/npm/node_modules/request/request.js:969:12) pkgid: 'hoeorno', statusCode: 404, code: 'E404' }
+43 silly rollbackFailedOptional Starting
+44 silly rollbackFailedOptional Finishing
+45 silly runTopLevelLifecycles Finishing
+46 silly install printInstalled
+47 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/hoeorno
+47 verbose stack     at makeError (/Users/Mr.Ware/.nvm/versions/node/v7.2.1/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+47 verbose stack     at CachingRegistryClient.<anonymous> (/Users/Mr.Ware/.nvm/versions/node/v7.2.1/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:280:14)
+47 verbose stack     at Request._callback (/Users/Mr.Ware/.nvm/versions/node/v7.2.1/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+47 verbose stack     at Request.self.callback (/Users/Mr.Ware/.nvm/versions/node/v7.2.1/lib/node_modules/npm/node_modules/request/request.js:187:22)
+47 verbose stack     at emitTwo (events.js:106:13)
+47 verbose stack     at Request.emit (events.js:191:7)
+47 verbose stack     at Request.<anonymous> (/Users/Mr.Ware/.nvm/versions/node/v7.2.1/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+47 verbose stack     at emitOne (events.js:96:13)
+47 verbose stack     at Request.emit (events.js:188:7)
+47 verbose stack     at IncomingMessage.<anonymous> (/Users/Mr.Ware/.nvm/versions/node/v7.2.1/lib/node_modules/npm/node_modules/request/request.js:969:12)
+48 verbose statusCode 404
+49 verbose pkgid hoeorno
+50 verbose cwd /Users/Mr.Ware/Desktop/LGProjects/terrific-coot
+51 error Darwin 15.6.0
+52 error argv "/Users/Mr.Ware/.nvm/versions/node/v7.2.1/bin/node" "/Users/Mr.Ware/.nvm/versions/node/v7.2.1/bin/npm" "i" "create-react-app" "hoeorno"
+53 error node v7.2.1
+54 error npm  v3.10.10
+55 error code E404
+56 error 404 Registry returned 404 for GET on https://registry.npmjs.org/hoeorno
+57 error 404
+58 error 404 'hoeorno' is not in the npm registry.
+59 error 404 You should bug the author to publish it (or use the name yourself!)
+60 error 404 Note that you can also install from a
+61 error 404 tarball, folder, http url, or git url.
+62 verbose exit [ 1, true ]
