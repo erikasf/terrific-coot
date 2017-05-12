@@ -89,7 +89,7 @@ https://github.com/erikasf/crudAPI
 - The web server makes use of the following request headers
   - [ ]x `Accept`
   - [ x] `Content Type`
-  - [ ] `Cookie`
+  - [x ] `Cookie`
 - [ x] Examples of each request header usage are listed and linked to in the README
 - The web server makes use of the following response headers
   - [ ] `Set-Cookie`
@@ -106,11 +106,11 @@ https://github.com/erikasf/crudAPI
   - [x ] Examples show full HTTP message body
 - The web server makes the following request types to an external API
   - [ x] Get a resource
-  - [ ] Create a resource
-  - [ ] Update a resource
-  - [ ] Delete a resource
+  - [x ] Create a resource
+  - [x ] Update a resource
+  - [ x] Delete a resource
 - [ x] Examples of each request type to the external API are listed and linked to in the README
-- [ ] The best resources you find for learning testing are added to a file `resources.md`
+- [ x] The best resources you find for learning testing are added to a file `resources.md`
 - [ x] The artifact produced is properly licensed, preferably with the [MIT license][mit-license]
 
 ## Stretch
