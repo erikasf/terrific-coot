@@ -3,7 +3,7 @@
 # Concept Focus: HTTP & Web APIs
 
 ## Challenge Rating
-
+<script src="https://gist.github.com/erikasf/4ab7d15edae0169cc1ae96ec66725f7c.js"></script>
 This goal will likely be within your ZPD if you...
 
 - Can choose a goal that fits your ZPD
