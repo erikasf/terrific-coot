@@ -1,6 +1,8 @@
-'use strict';
+// 'use strict';
 ////////////////////////////////////////////
 //Watson API//
+
+function watson(tweets){
 const PersonalityInsightsV3 = require('watson-developer-cloud/personality-insights/v3');
 const fs = require('fs');
 
@@ -16,7 +18,7 @@ const personality_insights = new PersonalityInsightsV3({
  */
 personality_insights.profile(
   {
-    text: 'I am entering in even more stuff here to try and test this damn thing. hopefully it will work but i have no idea why it wont Enter more than 100 unique words here it will work but i have no idea why it wont Enterit will work but i have no idea why it wont Enterit will work but i have no idea why it wont Enterit will work but i have no idea why it wont Enterit will work but i have no idea why it wont Enterit will work but i have no idea why it wont Enterit will work but i have no idea why it wont Enterit will work but i have no idea why it wont Enter loremipsum it will work but i have no idea why it wont Enterit will work but i have no idea why it wont Enterit will work but i have no idea why it wont Enterit will work but i have no idea why it wont Enterit will work but i have no idea why it wont Enterit will work but i have no idea why it wont Enterit will work but i have no idea why it wont Enterit will work but i have no idea why it wont Enterv...',
+    text: tweets,
       consumption_preferences: true
   },
   function(err, response) {
@@ -36,35 +38,45 @@ personality_insights.profile(
   }
 );
 
+}
 
 ///HOORNO Algo
-// arr = [.8, .1, .8, .8, .1]
+// arr = [.8,.1,.8,.8,.1]
 //
-// function callback(arr) {
-//     let newArr = []
-//     for (index = 0; index < arr.length; index++) {
-//         if (index === 1 || index === 4) {
-//             newArr.push(arr[index] * -1 * 100)
+// function hoeStatus(num){
+//   if(num === 220){
+//     return "@hoorno you may be a hoe."
+//   }else if(num < 220){
+//     return "@hoorno Nope... not a hoe."
+//   }else{
+//     return "@hoorno you may be a hoe."
+//   }
+// }
 //
-//         } else {
-//             newArr.push(arr[index] * 100)
-//  )       }
+//  function callback(arr){
+//     let newArr =[]
+//     for(index=0; index<arr.length; index++){
+//       if(index=== 1 || index === 4){
+//         newArr.push(arr[index]* -1*100)
+//
+//     }else{
+//       newArr.push(arr[index]*100)
 //     }
-//     return newArr
+//   }
+//   return newArr
 //
 // }
-// callback(arr).reduce(function(acc, val) {
-//     debugger
-//     return acc + val;
-// }, 0
-/*
- * CSV output example:
- * https://www.ibm.com/watson/developercloud/doc/personality-insights/output.shtml#outputCSV
- */
-personality_insights
-  .profile({
-    text: 'Enter more than 100 unique words here...',
-    csv_headers: true,
-    headers: { Accept: 'text/csv' }
-  })
-  .pipe(fs.createWriteStream('./data.json'));
+// hoeStatus( callback(arr).reduce(function(acc, val) { return acc + val; }, 0))
+// /*
+//  * CSV output example:
+//  * https://www.ibm.com/watson/developercloud/doc/personality-insights/output.shtml#outputCSV
+//  */
+// personality_insights
+//   .profile({
+//     text: 'Enter more than 100 unique words here...',
+//     csv_headers: true,
+//     headers: { Accept: 'text/csv' }
+//   })
+//   .pipe(fs.createWriteStream('./data.json'));
+
+module.exports = { watson:watson}
