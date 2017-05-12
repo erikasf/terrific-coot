@@ -59,45 +59,47 @@ An added benefit of working on a concept-focus goal is that you'll have a projec
   - [ ] `PUT/PATCH`
   - [ ] `DELETE`
 - [ ] Examples of each HTTP verb usage are listed and linked to in the README
+
 - The web server makes use of the following response status codes
-  - [ ] `200` (OK)
-  - [ ] `201` (Created)
-  - [ ] `400` (Bad Request)
-  - [ ] `301` (Moved Permanently)
-  - [ ] `403` (Forbidden)
-  - [ ] `404` (Not Found)
-  - [ ] `500` (Internal Server Error)
-- [ ] Examples of each status code usage are listed and linked to in the README
+  - [x ] `200` (OK)
+  - [x ] `201` (Created)
+  - [x ] `400` (Bad Request)
+  - [x ] `301` (Moved Permanently)
+  - [x ] `403` (Forbidden)
+  - [x ] `404` (Not Found)
+  - [x ] `500` (Internal Server Error)
+- [ x] Examples of each status code usage are listed and linked to in the README
 - The web server uses URL components in routing and responding
-  - [ ] Different paths trigger different routes
-  - [ ] Values from the URL query string are used in a route
-- [ ] Examples of routing and query string usage are listed and linked to in the README
+  - [ x] Different paths trigger different routes
+  - [ x] Values from the URL query string are used in a route
+- [x ] Examples of routing and query string usage are listed and linked to in the README
+https://github.com/erikasf/crudAPI
 - The web server makes use of the following request headers
-  - [ ] `Accept`
-  - [ ] `Content Type`
+  - [ ]x `Accept`
+  - [ x] `Content Type`
   - [ ] `Cookie`
-- [ ] Examples of each request header usage are listed and linked to in the README
+- [ x] Examples of each request header usage are listed and linked to in the README
 - The web server makes use of the following response headers
   - [ ] `Set-Cookie`
   - [ ] `Refresh`
-- [ ] Examples of each response header usage are listed and linked to in the README
+- [x ] Examples of each response header usage are listed and linked to in the README
 - The web server serves different types of resources
-  - [ ] Asset files (CSS, images)
-  - [ ] Static HTML
-  - [ ] Static JSON
-  - [ ] Dynamic resources (content of response changes based on query params, request headers, and/or application state)
-- [ ] Examples of each response type are listed and linked to in the README
+  - [ x] Asset files (CSS, images)
+  - [ x] Static HTML
+  - [ x] Static JSON
+  - [ x] Dynamic resources (content of response changes based on query params, request headers, and/or application state)
+- [ x] Examples of each response type are listed and linked to in the README
 - Example of a raw HTTP request and the server's raw HTTP response are included in the README
-  - [ ] Examples show full HTTP message header
-  - [ ] Examples show full HTTP message body
+  - [ x] Examples show full HTTP message header
+  - [x ] Examples show full HTTP message body
 - The web server makes the following request types to an external API
-  - [ ] Get a resource
+  - [ x] Get a resource
   - [ ] Create a resource
   - [ ] Update a resource
   - [ ] Delete a resource
-- [ ] Examples of each request type to the external API are listed and linked to in the README
+- [ x] Examples of each request type to the external API are listed and linked to in the README
 - [ ] The best resources you find for learning testing are added to a file `resources.md`
-- [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license]
+- [ x] The artifact produced is properly licensed, preferably with the [MIT license][mit-license]
 
 ## Stretch
 
