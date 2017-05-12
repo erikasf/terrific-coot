@@ -1,13 +1,13 @@
 
 [twitter api calls](https://github.com/erikasf/terrific-coot)
-
-
 [crud with https response examples](https://github.com/erikasf/terriffic-coot)
+
+[the code for the crud stuff](https://github.com/erikasf/crudAPI)
 
 You will find the api calls to twitter and ibm watson in the first . 
 it contains the api headers  required. 
 
-The second is a crud application that uses express to enable different pages to be rendered per specs. 
+The second/third is a crud application that uses express to enable different pages to be rendered per specs. 
 there is also a file that has the different http headers listed with examples of their makeup and messages to fufill the other portion 
 of these specs. 
 # terrific-coot
@@ -89,11 +89,11 @@ https://github.com/erikasf/crudAPI
 - The web server makes use of the following request headers
   - [ ]x `Accept`
   - [ x] `Content Type`
-  - [ X] `Cookie`
+  - [ ] `Cookie`
 - [ x] Examples of each request header usage are listed and linked to in the README
 - The web server makes use of the following response headers
-  - [X ] `Set-Cookie`
-  - [ X] `Refresh`
+  - [ ] `Set-Cookie`
+  - [ ] `Refresh`
 - [x ] Examples of each response header usage are listed and linked to in the README
 - The web server serves different types of resources
   - [ x] Asset files (CSS, images)
@@ -106,11 +106,11 @@ https://github.com/erikasf/crudAPI
   - [x ] Examples show full HTTP message body
 - The web server makes the following request types to an external API
   - [ x] Get a resource
-  - [ X] Create a resource
-  - [ X] Update a resource
-  - [ X] Delete a resource
+  - [ ] Create a resource
+  - [ ] Update a resource
+  - [ ] Delete a resource
 - [ x] Examples of each request type to the external API are listed and linked to in the README
-- [X ] The best resources you find for learning testing are added to a file `resources.md`
+- [ ] The best resources you find for learning testing are added to a file `resources.md`
 - [ x] The artifact produced is properly licensed, preferably with the [MIT license][mit-license]
 
 ## Stretch
