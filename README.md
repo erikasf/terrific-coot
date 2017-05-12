@@ -49,16 +49,16 @@ An added benefit of working on a concept-focus goal is that you'll have a projec
 
 ## Specifications
 
-- [ ] Artifact produced is a GitHub repo.
-- [ ] GitHub repo contains a web server.
-- [ ] Can run the command `npm start` to start the web server at port 3000.
-- [ ] The web server source code is written using the [Express][express] library.
+- [ x] Artifact produced is a GitHub repo.
+- [ x] GitHub repo contains a web server.
+- [ x] Can run the command `npm start` to start the web server at port 3000.
+- [ x] The web server source code is written using the [Express][express] library.
 - The web server handles routes for the following HTTP verbs
-  - [ ] `GET`
-  - [ ] `POST`
-  - [ ] `PUT/PATCH`
-  - [ ] `DELETE`
-- [ ] Examples of each HTTP verb usage are listed and linked to in the README
+  - [x ] `GET`
+  - [ x] `POST`
+  - [ x] `PUT/PATCH`
+  - [x ] `DELETE`
+- [ x] Examples of each HTTP verb usage are listed and linked to in the README
 
 - The web server makes use of the following response status codes
   - [x ] `200` (OK)
