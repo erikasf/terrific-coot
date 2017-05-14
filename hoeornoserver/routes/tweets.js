@@ -3,7 +3,7 @@ var tweets = require('../database/tweets')
 const tweetRoutes = new express.Router();
 var arr
 
-var tag = '@Pontifex'
+var tag = '@lindsaylohan'
 // tweetRoutes.get('/', function(req, res){
 //   tweets.viewAllTweets()
 //   .then(result=>{
@@ -91,11 +91,12 @@ var T = new Twit({
   access_token:'862352063430238208-sVCJt4QIrCCzt1iQ0NjzTdu4yiC3HsN',
   access_token_secret:'CSMUQfj3aue7gqQfy5q1JZ0reK85cROOfgSLPUEI449IP'
 });
+//@POTUS
 //@lindsaylohan
 //@LisaBronwyn
 // @Pontifex
 var params = {
-  q: '@Pontifex',
+  q: '@lindsaylohan',
   count: 70
 }
 
@@ -161,12 +162,12 @@ personality_insights.profile(
 ///HOORNO Algo
 
 function hoeStatus(num){
-  if(num >= 220){
+  if(num === 220){
     return "@hoorno says: " + tag + " you may be a hoe."
-  }else if(num < 220){
-    return "@hoorno says: " + tag + " Nope... not a hoe."
+  }else if(num >= 220){
+    return "@hoorno says: " + tag + " you may be a hoe."
   }else{
-    return "@hoorno says: "  + tag + " you may be a hoe."
+    return "@hoorno says: "  + tag + " Nope... not a hoe."
   }
 }
 
